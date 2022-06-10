@@ -1,21 +1,48 @@
-.nav-menu, .nav-menu *{ 
-    list-style:none; 
-    margin:0; 
+ul {
+    list-style-type: none; 
+    margin: 0; 
     padding: 0; 
- } 
- 
- .nav-menu > ul > li{  
-     position:relative; 
-     white-space: nowrap; 
-     float: left;
- } 
- 
- .nav-menu a{ 
-     display: block; 
-     position: relative; 
-     color: #f4f6f7; 
-     padding: 12px 15px; 
-     font-size: 14px; 
-     font-family: sans-serif; 
-     transition: 0.3s;
- } 
+    overflow: hidden; 
+    background-color: rgb(14, 10, 10);  
+
+} 
+li {
+    float: left;  
+} 
+li a {
+    display: inline-block; 
+    color: rgb(240, 254, 255); 
+    text-align: left; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-family: new times roman;
+} 
+li a:hover {
+    background-color: rgb(180, 69, 69);
+}  
+active{
+    background-color: rgb(242, 253, 253);
+} 
+H1 {
+    float: center; 
+    background-color: rgb(243, 19, 19); 
+    text-align: center; 
+    color: aliceblue; 
+    font-family: fantasy;
+}  
+/*sección principal*/ 
+#principal{
+    width: 100%; 
+    overflow: hidden; 
+    height: calc(100vh - 150px);
+} 
+
+#principal .carousel-item{ 
+    width: 100%; 
+    height: calc(100vh - 150px); 
+    background-size: cover; 
+    background-position: top right; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+} 
+
